@@ -47,6 +47,14 @@ WHERE coach = 'Fernando Santos'
 7.
 
 ```sql
+SELECT player FROM game JOIN goal
+ON goal.matchid = game.id
+WHERE stadium = 'National Stadium, Warsaw'
+```
+
+8.
+
+```sql
 
 ```
 
